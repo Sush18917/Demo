@@ -22,9 +22,9 @@ public class EOCheck extends HttpServlet {
 			int n=Integer.parseInt(request.getParameter("t1"));
 			out.println("<center>");
 			if(n%2==0)
-				out.println("<font color=blue>"+n+"is even Number</font>");
+				out.println("<font color=blue>"+n+"..Is Even Number</font>");
 			else
-				out.println("<font color=Green>"+n+"is odd Number</font>");
+				out.println("<font color=Green>"+n+"..Is Odd Number</font>");
 		   }
 		catch(Exception e){
 			out.println("Error:"+e.getMessage());
